@@ -525,7 +525,7 @@ header section.container nav.right ul li a.two {
     
 }
 #features section.bottom div.item div.left img {
-  
+  width: 100%;
 
     
     
@@ -560,6 +560,7 @@ header section.container nav.right ul li a.two {
 }
 #features section.bottom div.item div.content_box a img {
     margin-left: 10px;
+  
     
     
     
@@ -676,6 +677,9 @@ footer section.container div.right div.item div.social small:nth-child(5) {
         width: 450px;
         margin-right: 50px;
     }
+    #spotlight section.item div.content_box p { 
+        margin-right: 20px;
+    } 
 
     #categories div.item ul li {
        padding:40px 60px;   
@@ -694,9 +698,9 @@ footer section.container div.right div.item div.social small:nth-child(5) {
 
     #features section.bottom div.item div.content_box { 
         margin-left: 20px;
-
-
-}   
+    }  
+    
+}
 
 @media all and (max-width:980px) {
     #spotlight section.item div.content_box {
@@ -709,6 +713,9 @@ footer section.container div.right div.item div.social small:nth-child(5) {
         height: 400px;
         margin-top: 80px;
     }
+    #spotlight section.item div.content_box p { 
+        margin-right: 35px;
+    } 
 
     #references div.item ul li h3 {
         font-size: 30px;
@@ -821,6 +828,10 @@ footer section.container div.right div.item div.social small:nth-child(5) {
         margin-bottom: 30px;
     }
 
+    #features section.bottom div.item div.content_box a {
+        padding: 20px 25px;
+    }
+
 
 
 }
@@ -920,6 +931,9 @@ footer section.container div.right div.item div.social small:nth-child(5) {
     #features section.container ul li {
         width: 100%;
     }
+    #features section.bottom div.item div.content_box a {
+        padding: 10px 15px;
+    }
 
 }
 @media all and (max-width:360px) {
@@ -963,6 +977,10 @@ footer section.container div.right div.item div.social small:nth-child(5) {
         padding: 15px 25px;
     }
 
+    #features section.bottom div.item div.content_box a {
+        font-size: 12px;
+    }
+
 }
 @media all and (max-width:320px) {
     #spotlight section.item div.content_box h2 {
@@ -978,7 +996,6 @@ footer section.container div.right div.item div.social small:nth-child(5) {
         font-size: 15px;
     }
     #features section.bottom div.item div.content_box a button {
-        padding: 15px 10px;
         font-size: 14px;
     }
     #features section.bottom div.item div.left img {
@@ -987,6 +1004,8 @@ footer section.container div.right div.item div.social small:nth-child(5) {
     #features section.bottom div.item div.right img {
         margin-left:40px;
     }
-    
+    #features section.bottom div.item div.content_box a {
+        width: 100%;
     }
 
+}
