@@ -132,7 +132,7 @@ header section.container nav.right ul li a.two {
 }
 
 #spotlight section.item div.img_container img {
-    margin-right: 100px;
+    margin-right: 50px;
 
 }
 
@@ -376,9 +376,8 @@ header section.container nav.right ul li a.two {
 }
 #instructors div.item ul li div.main p {
     margin-bottom: 20px;
-    color: #363636;
+    color: #363636; 
     font-size: 15px;
-    
 
 }
 #instructors div.item ul li div.bottom {
@@ -509,6 +508,7 @@ header section.container nav.right ul li a.two {
 }
 #features section.container ul li div.bottom span p {
     color: #363636;
+
 }
 #features section.bottom {
     padding:80px 30px ;
@@ -539,15 +539,12 @@ header section.container nav.right ul li a.two {
 }
 #features section.bottom div.item div.content_box p {
     line-height: 1.5em;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     
 }
-#features section.bottom div.item div.content_box a {
-   
-   
-   
-}
-#features section.bottom div.item div.content_box a {
+
+
+#features section.bottom div.item div.content_box a  {
     width: 100%;
     text-align: center;
     background-color: #08070e;
@@ -556,8 +553,8 @@ header section.container nav.right ul li a.two {
     color: #fff;
     font-size: 15px;
     border: none;
-    
 }
+
 #features section.bottom div.item div.content_box a img {
     margin-left: 10px;
   
@@ -567,7 +564,7 @@ header section.container nav.right ul li a.two {
 }
 footer {
     background-color: #1e293b;
-    /* padding: 20px 30px; */
+    
     
 }
 footer section.container {
@@ -652,7 +649,7 @@ footer section.container div.right div.item div.social small {
     display: inline-block;
     border-radius: 50%;
     width: 40px;
-    height: 40px;
+    height: 40px; 
     margin-top: 10px;
     margin-right: 10px;
 
