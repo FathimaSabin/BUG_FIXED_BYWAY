@@ -92,18 +92,18 @@ header section.container nav.right ul li a.two {
 }
 
 #spotlight section.item div.content_box {
-    padding: 170px 0;
+    padding-top: 170px;
     
     
 }
 #spotlight section.item div.content_box h2 {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 900;
     margin-bottom: 20px;
     
 }
 #spotlight section.item div.content_box p {
-    font-size: 18px;
+    font-size: 16px;
     color: #3d3c3c;
     line-height: 1.5em;
     
@@ -165,12 +165,12 @@ header section.container nav.right ul li a.two {
     border-right: none;
 }
 #references div.item ul li h3 {
-    font-size: 40px;
+    font-size: 32px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 #references div.item ul li p {
-    font-size: 18px;
+    font-size: 14px;
     
 }
 
@@ -207,10 +207,10 @@ header section.container nav.right ul li a.two {
     
 }
 #categories div.item ul li {
-    padding: 60px 80px;
+    padding: 24px 93px;
     border: 1.5px solid #e9e9e9;
-    border-radius: 12px;
-    margin-right: 45px;
+    border-radius: 16px;
+    margin-right: 8px;
     box-shadow: 0 0 2px 2px rgb(246, 246, 253);
   
 
@@ -228,12 +228,12 @@ header section.container nav.right ul li a.two {
     
 }
 #categories div.item ul li h4 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
 }
 #categories div.item ul li p {
-    font-size: 18px;
+    font-size: 16px;
     color: #363636;
     
 } 
@@ -251,7 +251,7 @@ header section.container nav.right ul li a.two {
 
 }
 #courses div.top h2 {
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 600;
     margin-bottom: 40px;
     
@@ -262,27 +262,21 @@ header section.container nav.right ul li a.two {
 }
 #courses div.item {
     
-    
 
 }
 #courses div.item ul {
     display: flex;
-    justify-content:center;
-
-    
-    
-
-    
+    justify-content: space-between;
+  
 }
+
+
 #courses div.item ul li {
-    padding:20px;
-    border: 1.5px solid #e9e9e9;
-    border-radius: 15px;
+    padding: 16px;px;
+    border: 1px solid #e9e9e9;
+    border-radius: 16px;
     box-shadow: 0 0 2px 2px rgb(246, 246, 253);
-    width: 35%;
-    /* height: 400px; */
-    margin-right: 80px;
-   
+    
     
     
     
@@ -429,7 +423,7 @@ header section.container nav.right ul li a.two {
     
 }
 #features section.top h1 {
-    font-size: 30px;
+    font-size: 24px;
     line-height: 1.5em;
     margin-top: 80px;
     margin-bottom: 25px;
@@ -446,6 +440,7 @@ header section.container nav.right ul li a.two {
     padding:15px 25px;
     background-color: #93a4bd;
     border-radius: 10px;
+    margin-right: 24px;
 }
 #features section.top div.arrow img.right {
     padding:15px 25px;
@@ -454,23 +449,24 @@ header section.container nav.right ul li a.two {
 }
 #features section.container {
     background-color: #f7f9fc;
-    padding: 0 100px;
+    padding: 24px 80px;
     padding-bottom: 60px;
+
     
 
 }
 #features section.container ul {
     display: flex;
     justify-content: space-between;
-    margin-right: 10px;
+    gap: 8px;
     
 }
 #features section.container ul li {
-    padding: 40px;
-    border-radius: 12px;
+    padding: 40px 30px;
+    border-radius: 16px;
     box-shadow: 0 0 5px 5px rgba(171, 171, 173, 0.1);
     background-color: #fff;
-    width: 31%;
+    margin-right: 12px;
     
 
 
@@ -504,10 +500,12 @@ header section.container nav.right ul li a.two {
 
 #features section.container ul li div.bottom span h4 {
     margin-bottom: 5px;
+    font-size: 18px;
     
 }
 #features section.container ul li div.bottom span p {
     color: #363636;
+    font-size: 14px;
 
 }
 #features section.bottom {
@@ -548,7 +546,7 @@ header section.container nav.right ul li a.two {
     width: 100%;
     text-align: center;
     background-color: #08070e;
-    padding: 15px 38px;
+    padding: 10px 24px;
     border-radius: 10px;
     color: #fff;
     font-size: 15px;
@@ -565,12 +563,16 @@ header section.container nav.right ul li a.two {
 footer {
     background-color: #1e293b;
     
+
+    
     
 }
 footer section.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+   padding:20px 15px 80px;
+  
    
 
 }
@@ -608,7 +610,7 @@ footer section.container div.left p {
 }
 footer section.container div.right {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 70px;
 
     
@@ -642,6 +644,8 @@ footer section.container div.right div.item ul li a {
 
 }
 footer section.container div.right div.item div.social {
+    display: flex;
+    align-items: center;
    
 }
 footer section.container div.right div.item div.social small {
@@ -651,7 +655,7 @@ footer section.container div.right div.item div.social small {
     width: 40px;
     height: 40px; 
     margin-top: 10px;
-    margin-right: 10px;
+    margin-right: 15px;
 
 }
 footer section.container div.right div.item div.social small:nth-child(2) {
@@ -684,13 +688,17 @@ footer section.container div.right div.item div.social small:nth-child(5) {
     #courses div.item ul li {
         margin-right: 40px;
     }
+    #instructors div.item ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     #instructors div.item ul li {
-        margin-right: 30px;
-        width: 250px;
+        margin-right: 80px;
+        margin-bottom: 60px;
     }
     footer section.container div.right div.item {
         padding:0;
-        margin-right: 60px;
+        margin-left: 90px;
     }
 
     #features section.bottom div.item div.content_box { 
@@ -700,9 +708,6 @@ footer section.container div.right div.item div.social small:nth-child(5) {
 }
 
 @media all and (max-width:980px) {
-    #spotlight section.item div.content_box {
-        padding: 120px 0;
-    }
 
     #spotlight section.item div.img_container img {
         margin-right: 50px;
@@ -710,8 +715,15 @@ footer section.container div.right div.item div.social small:nth-child(5) {
         height: 400px;
         margin-top: 80px;
     }
+
+    #spotlight section.item div.content_box h2 {
+        font-size: 30px;
+        line-height: 1.3em;
+        
+    }
     #spotlight section.item div.content_box p { 
         margin-right: 35px;
+        margin-top: 30px;
     } 
 
     #references div.item ul li h3 {
@@ -737,8 +749,8 @@ footer section.container div.right div.item div.social small:nth-child(5) {
     }
 
     #courses div.item ul li {
-        margin-bottom: 20px;
-        width: 40%;
+        margin-bottom: 50px;
+        
     }
 
 
@@ -759,17 +771,21 @@ footer section.container div.right div.item div.social small:nth-child(5) {
         margin-right: 30px;
         margin-bottom: 30px;
     }
+    #features section.bottom div.item {
+        margin-bottom: 50px;
+    }
 
     #features section.bottom div.item div.left img {
         width: 70%;
     }
     #features section.bottom div.item div.right img {
         width: 80%;
-        margin-left: 60px;
+        margin-left: 90px;
     }
 
     #features section.bottom div.item div.content_box h2 {
-        font-size: 30px;
+        font-size: 25px;
+        font-weight: 600;
     }
     footer section.container div.right{
         flex-wrap: wrap;
@@ -777,12 +793,10 @@ footer section.container div.right div.item div.social small:nth-child(5) {
         margin-left: 80px;
     }
     footer section.container div.right div.item {
-        width: 36%;
         margin-bottom: 20px;
     }
-
-    footer section.container div.right div.item div.social {
-        width: 300px;
+    footer section.container div.left p {
+        font-size: 16px;
     }
     footer section.container div.left {
         margin-bottom: 140px;
@@ -795,17 +809,29 @@ footer section.container div.right div.item div.social small:nth-child(5) {
 @media all and (max-width:768px) {
 
     #spotlight section.item div.content_box h2 {
-        font-size: 25px;
+        font-size: 26px;
+        font-weight: 600;
 
 
     }
 
     #spotlight section.item div.content_box p {
-        font-size: 15px;
+        font-size: 16px;
 
     }
     #spotlight section.item div.img_container img {
-        width: 300px;
+        width: 350px;
+    }
+    #references div.item ul li h3 {
+        font-size: 25px;
+    }
+    #references div.item ul li p {
+        font-size: 14px;
+        font-weight: 500px
+
+    }
+    #references div.item ul li {
+        margin-right: 10px;
     }
     #categories div.item ul li {
         margin-right: 20px;
@@ -822,7 +848,13 @@ footer section.container div.right div.item div.social small:nth-child(5) {
         padding: 0 40px;
     }
     #features section.bottom div.item {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
+    }
+    #features section.bottom div.item div.content_box h2 {
+        font-size: 22px;
+    }
+    #features section.bottom div.item div.content_box p {
+        font-size: 15px;
     }
 
     #features section.bottom div.item div.content_box a {
@@ -837,16 +869,20 @@ footer section.container div.right div.item div.social small:nth-child(5) {
         display: none;
     }
     #spotlight section.item div.content_box {
-        padding-bottom: 0;
+        padding-top: 100px;
         text-align: center;
-        width: 100%;
-        padding-top: 80px;
     }
     #spotlight section.item div.content_box h2 {
         font-size: 35px;
     }
     #spotlight section.item div.content_box p {
         font-size: 16px;
+    }
+    #courses div.item ul {
+        justify-content: center;
+    }
+    #instructors div.item ul li {
+        margin-right: 30px;
     }
 
     footer section.container {
@@ -866,6 +902,7 @@ footer section.container div.right div.item div.social small:nth-child(5) {
     footer section.container div.left {
         margin-bottom: 0;
     }
+    
     #features section.bottom div.item {
         flex-direction: column;
 
@@ -931,6 +968,9 @@ footer section.container div.right div.item div.social small:nth-child(5) {
     #features section.bottom div.item div.content_box a {
         padding: 10px 15px;
     }
+    footer section.container div.right div.item div.social  {
+        flex-wrap: wrap;
+    }
 
 }
 @media all and (max-width:360px) {
@@ -977,7 +1017,12 @@ footer section.container div.right div.item div.social small:nth-child(5) {
     #features section.bottom div.item div.content_box a {
         font-size: 12px;
     }
-
+    #features section.bottom div.item div.right img {
+        margin-left: 50px;
+    }
+    footer section.container div.left p {
+        font-size: 15px;
+    }
 }
 @media all and (max-width:320px) {
     #spotlight section.item div.content_box h2 {
@@ -1003,6 +1048,9 @@ footer section.container div.right div.item div.social small:nth-child(5) {
     }
     #features section.bottom div.item div.content_box a {
         width: 100%;
+    }
+    #features section.top div.arrow img.left {
+        margin-right: 0;
     }
 
 }
